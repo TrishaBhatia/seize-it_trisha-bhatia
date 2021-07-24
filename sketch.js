@@ -13,7 +13,7 @@ function preload()
   s1=loadImage("state.png")
 }
 function setup() {
-  createCanvas(800,520);
+  createCanvas(windowWidth-10,windowHeight-220);
 }
 
 function draw() {
